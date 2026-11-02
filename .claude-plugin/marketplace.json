@@ -1,0 +1,25 @@
+{
+  "name": "djui-skills",
+  "owner": {
+    "name": "Uwe Dauernheim",
+    "url": "https://github.com/djui"
+  },
+  "metadata": {
+    "description": "Pre-launch audit skills for (vibe-coded) apps: performance, security, cost/abuse protection and legal compliance.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "app-audits",
+      "description": "Four checklist-driven audits that fix what they can and report the rest: performance, security, cost/abuse and legal compliance.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/performance-audit",
+        "./skills/security-audit",
+        "./skills/cost-abuse-audit",
+        "./skills/legal-compliance-audit"
+      ]
+    }
+  ]
+}
